@@ -140,9 +140,6 @@ void rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
             // }
             break;
         case _MO2: // Numpad layer
-            for (uint8_t i = 0; i < sizeof(LED_LIST_NUMPAD) / sizeof(LED_LIST_NUMPAD[0]); i++) {
-                rgb_matrix_set_color(LED_LIST_NUMPAD[i], RGB_MAGENTA);
-            }
             rgb_matrix_set_color(LED_R5, RGB_MAGENTA);
             rgb_matrix_set_color(LED_R6, RGB_MAGENTA);
             rgb_matrix_set_color(LED_R7, RGB_MAGENTA);
